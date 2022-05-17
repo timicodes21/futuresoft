@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #444444;
 }
 
@@ -23,9 +23,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -37,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5a5af3;
+  background: #E04D01;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #8080f6;
+  background: #251D3A !important;
   color: #fff;
 }
 .back-to-top.active {
@@ -77,11 +74,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
 }
-#header .logo a {
+/* #header .logo a {
   color: #5a5af3;
-}
+} */
 #header .logo img {
   max-height: 40px;
 }
@@ -132,12 +128,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 25px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #5a5af3;
-  border: 2px solid #5a5af3;
+  color: #E04D01;
+  border: 2px solid #E04D01;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #7272f5;
+  background: #E04D01;
 }
 .navbar .dropdown ul {
   display: block;
@@ -248,10 +244,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #434175;
+  color: #2A2550;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5a5af3;
+  color: #2A2550;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -298,10 +294,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 56px;
-  color: #434175;
-  font-family: "Poppins", sans-serif;
+  color: #251D3A;
+  font-family: 'Montserrat', sans-serif;
 }
 #hero h2 {
   margin: 10px 0 0 0;
@@ -321,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #5a5af3;
+  color: #E04D01;
 }
 #hero .btn-get-started, #hero .btn-get-quote {
   font-family: "Poppins", sans-serif;
@@ -336,14 +332,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
 }
 #hero .btn-get-started {
-  background: #5a5af3;
+  background: #E04D01;
   color: #fff;
-  border: 2px solid #5a5af3;
+  border: 2px solid #E04D01;
   margin-right: 10px;
 }
 #hero .btn-get-started:hover {
-  background: #7272f5;
-  border-color: #7272f5;
+  background: #2A2550;
+  border-color: #2A2550;
 }
 #hero .btn-get-quote {
   color: #5a5af3;
@@ -420,7 +416,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #434175;
+  color: #251D3A;
 }
 .section-title h2::after {
   content: "";
@@ -428,7 +424,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5a5af3;
+  background: #434175;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -444,7 +440,7 @@ section {
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 20px;
-  color: #434175;
+  color: #2A2550;
 }
 .about .content h3 {
   font-weight: 500;
@@ -464,7 +460,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #5a5af3;
+  color: #E04D01;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -477,22 +473,23 @@ section {
   padding-top: 0;
 }
 .why-us .box {
-  padding: 50px 30px;
+  padding: 60px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  z-index: 1 !important;
 }
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #b9b9fa;
+  color: #E04D01;
 }
 .why-us .box h4 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #434175;
+  color: #2A2550;
 }
 .why-us .box p {
   color: #aaaaaa;
@@ -501,7 +498,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #5a5af3;
+  background: #2A2550;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -590,7 +587,7 @@ section {
   font-size: 22px;
 }
 .services .icon-box h4 a {
-  color: #434175;
+  color: #2A2550;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -1093,7 +1090,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #5a5af3;
+  color: #E04D01;
   border-radius: 50%;
   padding: 8px;
 }
@@ -1370,7 +1367,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #deddec;
-  color: #434175;
+  color: #E04D01;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1381,7 +1378,10 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #5a5af3;
+  background: #E04D01;
   color: #fff;
   text-decoration: none;
+}
+.copyright span{
+  color: #E04D01;
 }

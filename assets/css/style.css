@@ -112,7 +112,7 @@ a:hover {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #434175;
+  color: #251D3A;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -122,7 +122,7 @@ a:hover {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #5a5af3;
+  color: #E04D01;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 6px 25px;
@@ -193,7 +193,7 @@ a:hover {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #434175;
+  color: #2A2550;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1277,7 +1277,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #434175;
+  color: #2A2550;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1291,7 +1291,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5a5af3;
+  color: #E04D01;
   font-size: 18px;
   line-height: 1;
 }
@@ -1311,7 +1311,7 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5a5af3;
+  color: #E04D01;
 }
 #footer .footer-newsletter {
   font-size: 15px;

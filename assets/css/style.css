@@ -297,7 +297,6 @@ a:hover {
   font-weight: 500;
   line-height: 56px;
   color: #251D3A;
-  font-family: 'Montserrat', sans-serif;
 }
 #hero h2 {
   margin: 10px 0 0 0;
@@ -375,6 +374,7 @@ a:hover {
   #hero .hero-img img {
     width: 70%;
   }
+
 }
 @media (max-width: 575px) {
   #hero {
@@ -440,7 +440,7 @@ section {
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 20px;
-  color: #2A2550;
+  color: #251D3A;
 }
 .about .content h3 {
   font-weight: 500;
@@ -477,6 +477,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
   z-index: 1 !important;
+  height: 55vh;
 }
 .why-us .box span {
   display: block;
@@ -1303,6 +1304,13 @@ section {
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
+
+#footer p{
+  color: #777777;
+  margin-top: -10px;
+  font-size: 14px;
+}
+
 #footer .footer-top .footer-links ul a {
   color: #777777;
   transition: 0.3s;
